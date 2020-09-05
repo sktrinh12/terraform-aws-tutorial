@@ -14,4 +14,6 @@ You must have an AWS account and provide your AWS Access Key ID and AWS Secret A
 
 The values for `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` should be saved as environment variables on your workspace.
 
+After added the environmental variables from above, within the same console, add the following Terraform variables: `region` and `amis`. `amis` would be a `HCL` `map` type that resembles a dictionary of key-value pairs.
+
 ![tf-aws](logo.png)
