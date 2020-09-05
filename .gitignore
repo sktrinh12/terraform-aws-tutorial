@@ -1,0 +1,4 @@
+awskey*
+ip_address.txt
+.terraform
+terraform.tfstate.backup
